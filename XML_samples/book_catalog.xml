@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<books> 
+	<heading>Welcome To GeeksforGeeks </heading> 
+	<book> 
+		<book_title>Title -: Web Programming</book_title> 
+		<author>Author -: Chrisbates</author> 
+		<publisher>Publisher -: Wiley</publisher> 
+		<edition>Edition -: 3</edition> 
+		<price> Price -: 300</price> 
+	</book> 
+	<book>
+		<book_title>Title -: Internet world-wide-web</book_title> 
+		<author>Author -: Ditel</author> 
+		<publisher>Publisher -: Pearson</publisher> 
+		<edition>Edition -: 3</edition> 
+		<price>Price -: 400</price> 
+	</book> 
+	<book> 
+		<book_title>Title -: Computer Networks</book_title> 
+		<author>Author -: Foruouzan</author> 
+		<publisher>Publisher -: Mc Graw Hill</publisher> 
+		<edition>Edition -: 5</edition> 
+		<price>Price -: 700</price> 
+	</book> 
+	<book> 
+		<book_title>Title -: DBMS Concepts</book_title> 
+		<author>Author -: Navath</author> 
+		<publisher>Publisher -: Oxford</publisher> 
+		<edition>Edition -: 5</edition> 
+		<price>Price -: 600</price> 
+	</book> 
+	<book> 
+		<book_title>Title -: Linux Programming</book_title> 
+		<author>Author -: Subhitab Das</author> 
+		<publisher>Publisher -: Oxford</publisher> 
+		<edition>Edition -: 8</edition> 
+		<price>Price -: 300</price> 
+	</book> 
+</books> 

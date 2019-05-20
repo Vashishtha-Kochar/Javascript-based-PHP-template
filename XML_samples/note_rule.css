@@ -1,0 +1,28 @@
+note {
+    background-color: #d61b1b;
+    width: 100%;
+}
+
+to {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+
+from {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+
+heading {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+
+note_body {
+    display: block;
+    color: #000000;
+    font-size: 20pt;
+}

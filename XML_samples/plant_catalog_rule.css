@@ -1,0 +1,24 @@
+CATALOG {
+    background-color: #d61b1b;
+    width: 100%;
+}
+PLANT {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+COMMON, BOTANICAL {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+ZONE {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+LIGHT, PRICE, AVAILABILITY {
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+}
