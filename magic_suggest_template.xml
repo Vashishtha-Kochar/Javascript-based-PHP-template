@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dropdown>
+    <setting>
+    <!-- Name of the javascript file to look for the configuration settings -->
+        magic_suggest_configuration_setting.js
+    </setting>
+    <data>
+    <!-- 'name' will be used to display for the dropdown. 'file' is the name of the file in the XML_Samples folder -->
+        <element>
+            <file>note.xml</file>
+            <name>Note</name>
+        </element>
+        <element>
+            <file>cd_catalog.xml</file>
+            <name>CD Catalog</name>
+        </element>
+        <element>
+            <file>note.xml</file>
+            <name>Note</name>
+        </element>
+        <element>
+            <file>simple.xml</file>
+            <name>Breakfast menu</name>
+        </element>
+        <element>
+            <file>plant_catalog.xml</file>
+            <name>Plant catalog</name>
+        </element>
+        <element>
+            <file>book_catalog.xml</file>
+            <name>Book catalog</name>
+        </element>
+    </data>
+</dropdown>

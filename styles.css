@@ -1,0 +1,108 @@
+note {
+    background-color: #d61b1b;
+    width: 100%;
+}
+
+to {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+
+from {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+
+heading {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+
+note_body {
+    display: block;
+    color: #000000;
+    font-size: 20pt;
+}
+books { 
+	color: white; 
+	background-color : rgb(0, 0, 0); 
+	width: 100%; 
+} 
+book_heading { 
+	color: green; 
+	font-size : 40px; 
+	/* background-color : powderblue;  */
+} 
+book_heading, book_title, author, publisher, edition { 
+	display : block; 
+} 
+book_title { 
+	font-size : 25px; 
+	font-weight : bold; 
+} 
+CATALOG {
+    background-color: #d61b1b;
+    width: 100%;
+}
+CD {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+CD_TITLE {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+ARTIST {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+COUNTRY, PRICE, YEAR, COMPANY {
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+}
+PLANT {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+COMMON, BOTANICAL {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+ZONE {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+LIGHT, AVAILABILITY {
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+}
+breakfast_menu {
+    background-color: #d61b1b;
+    width: 100%;
+}
+food {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+name {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+description, calories {
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+}

@@ -38,6 +38,7 @@ $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
         options.cache = false;
         options.beforeSend = function (request) {
             if (localCache.exist(url)) {
+                complete(localCache.getData(url));
                 request.setRequestHeader("If-Modified-Since", localCache.getTimestamp(url));
             }
             return true;
@@ -48,9 +49,6 @@ $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
             }
             else if(textStatus == "notmodified"){
                 console.log("The url has not been modified and cache is not updated : " + url);
-                if(complete !=  $.noop ){
-                    complete(localCache.getData(url));
-                }
             }
             else{
                 // The status returned can be "nocontent", "error", "timeout", "abort", or "parsererror"
